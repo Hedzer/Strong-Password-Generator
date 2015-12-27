@@ -1,0 +1,61 @@
+.title {
+	font-size: 8em;
+	margin: 1em auto 1em auto;
+	text-align: center;
+}
+.field{
+	position: relative;
+	font-size: 100%;
+	width:75%;
+	margin: 3em auto;
+}
+.field-title{
+	font-size: 5em;
+	margin: .25em 0em
+}
+.field-input{
+	position: relative;
+	font-size: 5em;
+	width:100%;
+	margin: .25em 0em;
+	border-radius: .25em;
+	text-align: center;
+	border:solid .1em grey;
+}
+.password {
+	position: relative;
+	font-size: 8em;
+	width:100%;
+	margin: .25em 0em;
+	border-radius: .25em;
+	text-align: center;
+	border:solid .2em black;
+	font-family: 'PTSansCaptionRegular';
+}
+.grey {
+	color:#555;
+}
+@media all and (orientation: portrait) {
+	body {
+		font-size: 1vw;
+	}
+	.portrait {
+		position: absolute;
+		top:0em;
+		right:0em;
+		bottom:0em;
+		left:0em;
+	}	
+}
+@media all and (orientation: landscape) {
+	body {
+		font-size: 0.75vmin;
+	}
+	.portrait {
+		position: relative;
+		top:0em;
+		width:100vmin;
+		bottom:0em;
+		margin:auto auto;
+	}
+}
